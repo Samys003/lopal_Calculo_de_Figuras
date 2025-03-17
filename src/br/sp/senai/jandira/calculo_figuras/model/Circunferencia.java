@@ -16,5 +16,16 @@ public class Circunferencia {
 		double area = Math.PI * Math.pow(raio, 2);
 		return area;
 	}
+	
+	public void exibirDados() {
+		System.out.println("=========================");
+		System.out.println("Circunferencia:");
+		System.out.printf("Area: %s\n", calcularArea());
+		System.out.println("=========================");
+		
+	}
+
+
+	
 }
 
